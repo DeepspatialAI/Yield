@@ -56,10 +56,10 @@ def predict_crop_yield(Area,Temperature,Precipitation,Humidity):
 
     
 def main():
-    st.title("Crop Yield Prediction")
+    st.title("DSAI Digital Agriculture Platform")
     html_temp = """
     <div style="background-color:green;padding:10px">
-    <h2 style="color:white;text-align:center;">Crop Yield Predictor ML App </h2>
+    <h2 style="color:white;text-align:center;">Farm Yield Predictor</h2>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
