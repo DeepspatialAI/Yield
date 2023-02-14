@@ -63,6 +63,7 @@ def main():
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
+    crop_choice=st.selectbox("Please Select the Crop",("Wheat",'Maize','Paddy','Sugarcane'))
     Area = st.text_input("Area in hectares","Enter value")
     Temperature = st.text_input("Temperature in degree celcius","Enter value")
     Precipitation = st.text_input("Precipitation in mm","Enter value")
